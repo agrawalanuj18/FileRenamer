@@ -1,5 +1,5 @@
 const fs = require('fs');
-const replaceThis = "anuj"
+const replaceThis = "file"
 const replaceWith = "john"
 const preview = true
 
