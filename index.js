@@ -4,7 +4,7 @@ const replaceWith = "john"
 const preview = true
 
 try {
-fs.readdir("data", (err, data)=>{
+fs.readdir(".", (err, data)=>{
     for (let index = 0; index < data.length; index++) {
         const item = data[index];
         let newFile = "data/" + item.replaceAll(replaceThis, replaceWith)
@@ -15,9 +15,8 @@ fs.readdir("data", (err, data)=>{
         }
         else{
           if ("data/" + item !== newFile) {
-            console.log("data/" + item + "will be renamed to " + newFile)
+            console.log("data/" + item + " will be renamed to " + newFile)
           }
-            
         }
     }
 })
