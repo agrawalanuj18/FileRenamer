@@ -6,16 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anuj Agrawal",
+  "author": "Anuj",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/agrawalanuj18/FileRenamer.git"
-  },
-  "bugs": {
-    "url": "https://github.com/agrawalanuj18/FileRenamer/issues"
-  },
-  "homepage": "https://github.com/agrawalanuj18/FileRenamer#readme",
   "dependencies": {
     "express": "^4.18.2"
   }
